@@ -1,0 +1,560 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://studionumerik.fr/
+Description: Twenty Twenty Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.skip-link.screen-reader-text{
+    display: none;
+}
+
+.custom-logo-link{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.screen-reader-text,
+.site-description{
+    display: none;
+}
+
+
+.header__content__logo{
+    text-align: center;
+}
+
+.header__content__logo img{
+    width: 200px;
+    height: 150px;
+}
+
+.blocStudentIntro{
+    margin: auto;
+    display: flex;
+    width: 340px;
+    align-items: center;
+    background-color: #1A1D22;
+    padding-top: 90px;
+
+}
+
+.blocStudentIntro__pic img{
+    width: 64px;
+    border-radius: 50%;
+    height: 64px;
+
+}
+
+.blocStudentIntro__text{
+    color: #ffffff;
+    display: block;
+    width: 95px;
+
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.location{
+    font-size: 12px;
+}
+
+.blocStudentIntro__text,
+.blocStudentIntro__pic,
+.blocStudentIntro__btn{
+    margin-left: 24px;
+}
+
+.blocStudentIntro__btn button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link{
+    background: white!important;
+}
+
+.blocStudentIntro__btn button:not(.toggle):hover, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link{
+    background: #ffc252!important;
+    color: white;
+    border-color: #ffc252;
+    transition-duration: 0.2s;
+}
+
+
+.blocStudentIntro__btn button{
+    width: 100px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;!important;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 8px 0;
+}
+
+.blocStudentManage{
+    display: flex;
+    width: 340px;
+    margin: auto;
+}
+
+.blocStudentManage__postul,
+.blocStudentManage__like,
+.blocStudentManage__calendar{
+    width: 110px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blocStudentManage__postul{
+    margin-right: 5px;
+}
+
+.btn-offrePostule ,
+.btn_offreLike,
+.btn_calendar{
+    background-color: #1A1D22!important;
+    color: #ffc252;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+.blocStudentManage__postul span,
+.blocStudentManage__like span{
+    display:block;
+    font-size: 30px;
+    text-align: center;
+    color: #ffc252;
+}
+
+.blocStudentManage__like{
+    margin-right: 5px;
+}
+
+.blocStudentManage__postul  button,
+.blocStudentManage__like button,
+.blocStudentManage__calendar button {
+    height: 110px;
+    width: 110px;
+    border: none;
+}
+
+.blocStudentManage__calendar button img{
+    width: 50px;
+}
+
+.blocStudentSkill{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top:30px;
+    background:#1A1D22;
+}
+
+.blocStudentSkill h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.blocStudentSkill__item{
+    color: #ffffff;
+}
+
+.blocStudentSkill__item ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 250px;
+}
+
+.blocStudentSkill__item ul li{
+    margin-right: 10px;
+    color: #FFCB6B;
+    font-size: 12px;
+    padding: 7px 8px;
+    border: 1px solid #FFCB6B;
+    border-radius: 4px;
+    background:#ffffff;
+}
+
+.blocStudentSkill__item ul li:last-child,
+.blocStudentSkill__item ul li:nth-child(5){
+    margin-top: 10px;
+}
+
+.blocStudentProjects{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background:#1A1D22;
+}
+
+.blocStudentProjects h2{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+    text-transform: uppercase;
+}
+
+.blocStudentProjects h2 span {
+    display: block;
+    float: right;
+    margin-right: 22px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blocStudentProjects img{
+    width: 140px;
+}
+
+.blocStudentProjects__picture{
+    padding-bottom: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__content{
+    margin-top: 40px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+
+}
+
+.prefooter a{
+    text-decoration: none;
+    color:#1A1D22;
+    font-size: 12px;
+    font-weight: 700
+}
+.menu__container{
+    width: 100%;
+    height: 55px;
+}
+
+.menu__navbar{
+    width: 100%;
+    background: #1A1D22;
+    position: fixed;
+    bottom:0;
+    height:55px;
+
+}
+
+.primary-menu.reset-list-style li{
+    width: 20%;
+}
+.primary-menu.reset-list-style li a {
+    color: transparent!important;
+}
+.menu-item-107{
+    background-image:url("assets/iconSVG/feed.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-item-109{
+    background-image:url("assets/iconSVG/heart-yellow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-item-108{
+    background-image:url("assets/iconSVG/messages.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-item-106{
+    background-image:url("assets/iconSVG/profile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.menu-item-110{
+    background-image:url("assets/iconSVG/settings.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu__container ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+
+}
+
+/* page template article*/
+
+
+.single-post  .header__content__logo{
+    display: none;
+}
+.single-post{
+    background: #f5f5f5;
+}
+
+.articleTitleWithIcon__title{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.articleTitleWithIcon__title img{
+    margin-left: 22px;
+}
+
+h1{
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: #ffc252;
+    text-transform: capitalize;
+}
+
+.article__container{
+    width: 340px;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 40px;
+
+}
+
+.article__content{
+    padding: 55px 35px 32px;
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+.article__content h2{
+    color: #00a390;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.article__content p{
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1A1D22;
+}
+
+.linkEmployer{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.linkEmployer a{
+    vertical-align: super;
+    text-decoration: none;
+    color: #ffc252;
+}
+
+/* page offre aimée*/
+
+.backMenuWithIcon__title{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.backMenuWithIcon__title img{
+    margin-left: 22px;
+}
+
+.returnProfil{
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.likedOffer__container{
+    margin-top: 75px;
+    width: 330px;
+    margin: auto;
+    max-height: 640px;
+    overflow: scroll;
+
+}
+
+.likedOffer__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.likedOffer__bloc{
+    display: flex;
+    align-items: flex-start;
+    width: 150px;
+    height: 120px;
+    background: #1A1D22;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.likedOffer__bloc img{
+    position: absolute;
+    right: 14px;
+    bottom: 14px;}
+
+.likedOffer__bloc__preview{
+    color: white;
+    font-size:12px;
+    line-height: 18px;
+    margin-left: 15px;
+
+
+}
+
+/* page feed*/
+
+.headerWrapper__title{
+
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.returnProfil{
+
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.blocOfferFeed {
+    margin-bottom: 20px;
+}
+.blocOfferFeed__owner{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    align-items: center;
+    background-color: #00a390;
+    height: 80px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.blocOfferFeed__pic img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+}
+.blocOfferFeed__text{
+    color: white;
+    font-weight: normal;
+}
+
+.blocOfferFeed__article{
+    background: white;
+    width: 340px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    max-height: 140px;
+    padding-bottom: 20px;
+
+}
+
+
+.titleOffer{
+    font-size: 14px;
+    text-transforms: uppercase;
+    margin-left: 20px;
+}
+
+.blocOfferFeedContent{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 10px;
+    line-height: 16px;
+    overflow: hidden;
+
+
+}
+
+.blocOfferFeedContentButton{
+
+    margin-right: 10px;
+    color: #FFCB6B;
+    font-size: 12px;
+    padding: 7px 8px;
+    border: 1px solid #FFCB6B;
+    border-radius: 4px;
+    background: #ffffff;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 20px;
+    width: 150px;
+    text-transform: uppercase;
+    justify-self: center;
+}
+
+#cookie-notice .cookie-notice-container .cn-text-container{
+    padding: 0 22px!important;
+}
+
+.page-id-102 .header__content__logo,
+.page-id-102 .skip-link {
+    display: none;
+}
+
+button.blocOfferFeedContentButton{
+    background-color: white !important;
+}
+
+body.home{
+    background: #f5f5f5;
+
+}
+
+hr.styled-separator{
+    display: none;
+}
+
+.titleOffer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
